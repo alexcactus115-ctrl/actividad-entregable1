@@ -1,6 +1,6 @@
 # Analizador de Arreglo
 
-##Autor: Alejandro Noel Bello Sanchez
+## Autor: Alejandro Noel Bello Sanchez
 
 ## Descripción
 Este proyecto analiza un arreglo de números enteros y realiza dos tareas:
