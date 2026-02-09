@@ -1,0 +1,37 @@
+Refactorización del proyecto "Analizador de Arreglo"
+
+1. Renombrado de la clase:
+   - Antes: p
+   - Ahora: AnalizadorArreglo
+   - Justificación: Nombre más descriptivo y profesional, que indica claramente la funcionalidad del programa.
+
+2. Renombrado de variables:
+   - n → numeros
+   - a → contadorMax
+   - b → indicadorMaxRepetido (eliminada, se reemplazó por condición directa)
+   - c → maximo
+   - s → suma
+   - r → promedio
+   - Justificación: Se usaron nombres claros y significativos para mejorar la legibilidad y mantenibilidad del código.
+
+3. Uso de bucles for-each:
+   - Cambié los bucles tradicionales `for(int i=0; i<n.length; i++)` por `for(int num : numeros)` donde fue posible.
+   - Justificación: Código más limpio, legible y moderno.
+
+4. Eliminación de variables innecesarias:
+   - La variable `b` ya no es necesaria. Se sustituyó su uso con la condición `contadorMax > 1`.
+   - Justificación: Evita variables redundantes y simplifica la lógica.
+
+5. Adición de comentarios y Javadoc:
+   - Se agregaron comentarios explicativos y Javadoc a la clase y al método principal.
+   - Justificación: Facilita la comprensión del código y permite generar documentación automática.
+
+6. Otros cambios menores:
+   - Mejorada la indentación y el espaciado para una lectura más cómoda.
+   - Justificación: Mejora la estética y legibilidad del código.
+
+Resultado:
+- Código más claro, limpio y fácil de mantener.
+- Cumple con buenas prácticas de programación en Java.
+- Documentación lista para generar Javadoc.
+
